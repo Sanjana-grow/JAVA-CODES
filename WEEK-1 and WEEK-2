@@ -1,0 +1,562 @@
+
+1.TO PRINT HELLO WORLD
+public class New
+{
+public static void main(String[] args)
+{
+System.out.println("Hello World");
+}
+}
+
+ 
+2.DATA TYPES IN JAVA
+public class Test
+{
+public static void main(String[] args)
+{
+//working with data types
+/*int
+float String*/
+int a=10;
+float b=10.0f;
+String c="Hello";
+System.out.println(a);
+System.out.println(b);
+System.out.println(c);
+}
+}
+
+ 
+3.CHANGING THE VALUE OF DATA TYPES
+public class Test
+{
+public static void main(String[] args)
+{
+//working with data types
+/*int
+float String*/
+int a=10;
+a=20;
+System.out.println(a);
+}
+}
+
+ 
+
+4.USING FINAL KEYWORD:
+public class Test
+{
+public static void main(String[] args)
+{
+//working with data types
+/*int
+float String*/
+final int a=10;
+a=20;
+System.out.println(a);
+}
+}
+
+ 
+
+5.WIDENING CASTING
+public class New
+{
+public static void main(String[] args)
+{
+int n=9;
+double m=n;
+System.out.println(n);
+System.out.println(m);
+}
+}
+
+ 
+
+6.NARROWING CASTING
+public class New
+{
+public static void main(String[] args)
+{
+double a=9.78d;
+int b=(int)a;
+System.out.println(a);
+System.out.println(b);
+}
+}
+
+ 
+
+7.’+’ OPERATOR
+public class New
+{
+public static void main(String[] args)
+{
+int a=100+50;
+int b=a+50;
+int c=a+b;
+System.out.println(a);
+System.out.println(b);
+System.out.println(c);
+}
+}
+
+ 
+8.TRYING TO ADD A STRING AND INTEGER(CONCATENATE)
+public class New
+{
+public static void main(String[] args)
+{
+int a=100+50;
+String b="Hello"+30;
+System.out.println(a);
+System.out.println(b);
+}
+}
+
+ 
+
+9.USING CONDITIONAL/TERNARY OPERATOR
+public class New
+{
+public static void main(String[] args)
+{
+int n,m;
+n=20;
+m=(n==1)?61:90;
+System.out.println("Value of m is" +m);
+m=(n==20)?61:90;
+System.out.println("Value of m is" +m);
+}
+}
+
+ 
+
+10.STRING FUNCTION:LENGTH
+public class New
+{
+public static void main(String[] args)
+{
+String txt="abcdefghijkl";
+System.out.println("Length of the string is: " +txt.length());
+}
+}
+
+
+ 
+11.STRING FUNCTION:UPPERCASE AND LOWERCASE
+public class New
+{
+public static void main(String[] args)
+{
+String txt="abcdefghijkl";
+System.out.println(txt.toUpperCase());
+System.out.println(txt.toLowerCase());
+}
+}
+
+ 
+12.STRING FUNCTIONS:INDEXOF METHOD
+public class New
+{
+public static void main(String[] args)
+{
+String txt="please check locate to check where you are";
+System.out.println(txt.indexOf("check"));
+}
+}
+
+ 
+13.STRING CONCATENATION:
+public class New
+{
+public static void main(String[] args)
+{
+String n1="John";
+String n2="Doe";
+System.out.println(n1+" "+n2);
+}
+}
+
+ 
+14.USING CONCAT METHOD:
+public class New
+{
+public static void main(String[] args)
+{
+String n1="John";
+String n2="Doe";
+System.out.println(n1.concat(n2));
+}
+}
+
+ 
+
+15.CONCATENATE A STRING AND NUMBER
+public class New
+{
+public static void main(String[] args)
+{
+int n1=10;
+String n2="20";
+System.out.println(n1+n2);
+}
+}
+
+ 
+16.SPECIAL CHARACTERS:\”
+public class New
+{
+public static void main(String[] args)
+{
+String n2="We are \"Vikings\" from north";
+System.out.println(n2);
+}
+}
+
+ 
+
+17.MATH FUNCTION TO FIND THE MAX NUMBER
+public class New
+{
+public static void main(String[] args)
+{
+int a=20;
+int b=30;
+System.out.println(Math.max(a,b));
+}
+}
+
+ 
+18.MIN FUNCTION
+public class New
+{
+public static void main(String[] args)
+{
+int a=20;
+int b=30;
+System.out.println(Math.min(a,b));
+}
+}
+
+ 
+19.SQRT FUNCTION
+public class New
+{
+public static void main(String[] args)
+{
+int a=36;
+int n=50;
+System.out.println(Math.sqrt(a));
+System.out.println(Math.sqrt(n));
+}
+}
+
+ 
+20.ABS FUNCTION:
+public class New
+{
+public static void main(String[] args)
+{
+int a=-36;
+System.out.println(Math.abs(a));
+}
+}
+
+ 
+21.RANDOM FUNCTION:
+public class New
+{
+public static void main(String[] args)
+{
+System.out.println(Math.random());
+}
+}
+
+ 
+22.BOOLEAN
+public class Hello
+{
+public static void main(String[] args)
+{
+boolean isJavaFun;
+boolean isTasty;
+System.out.println(isJavaFun);
+System.out.println(isTasty);
+}
+}
+
+ 
+23.USING >:
+public class Hello
+{
+public static void main(String[] args)
+{
+int x=10;
+int y=20;
+System.out.println(x>y);
+}
+}
+
+ 
+24.IF STATEMENT:
+public class Hello
+{
+public static void main(String[] args)
+{
+if(20>18)
+{
+System.out.println("20 is greater");
+}
+}
+}
+
+ 
+25.IF-ELSE:
+public class Hello
+{
+public static void main(String[] args)
+{
+if(20>18)
+{
+System.out.println("20 is greater");
+}
+else
+{
+System.out.println("20 is not greater");
+}
+}
+}
+
+ 
+26.IF,ELSE-IF,ELSE:
+public class Hello
+{
+public static void main(String[] args)
+{
+int t=30;
+if(t>18)
+{
+System.out.println("t is greater");
+}
+else if(t<18)
+{
+System.out.println("t is not greater");
+}
+else
+{
+System.out.println("Equal to 18");
+}
+}
+}
+
+ 
+27.SWITCH CASE:
+public class Hello
+{
+public static void main(String[] args)
+{
+int d=4;
+switch(d)
+{
+case 1:
+System.out.println("Mon");
+break;
+case 2:
+System.out.println("tue");
+break;
+case 3:
+System.out.println("Wednesday");
+break;
+case 4:
+System.out.println("Thurs");
+break;
+case 5:
+System.out.println("Fri");
+break;
+case 6:
+System.out.println("Sat");
+break;
+case 7:
+System.out.println("Sun");
+break;
+default:
+System.out.println("not a day");
+}
+}
+}
+
+ 
+28.WHILE LOOP
+public class Hello
+{
+public static void main(String[] args)
+{
+int i=0;
+while(i<5)
+{
+System.out.println(i);
+i++;
+}
+}
+}
+
+ 
+29.DO-WHILE LOOP
+public class Hello
+{
+public static void main(String[] args)
+{
+int i=0;
+do
+{
+System.out.println(i);
+i++;
+}while(i<5);
+}
+}
+
+ 
+30.FOR LOOP:
+public class Hello
+{
+public static void main(String[] args)
+{
+for(int i=0;i<5;i++ )
+{
+System.out.println("i");
+}
+}
+}
+
+ 
+31.FOR-EACH LOOP:
+public class Hello
+{
+public static void main(String[] args)
+{
+String[] cars={"volvo","bmw","ford"};
+for(String i:cars)
+{
+System.out.println(i);
+}
+}
+}
+
+ 
+32.BREAK:
+public class Hello
+{
+public static void main(String[] args)
+{
+for(int i=0;i<10;i++)
+{
+if(i==4){
+break;
+}
+System.out.println(i);
+}
+}
+}
+
+
+ 
+33.CONTINUE:
+public class Hello
+{
+public static void main(String[] args)
+{
+for(int i=0;i<10;i++)
+{
+if(i==4){
+continue;
+}
+System.out.println(i);
+}
+}
+}
+
+ 
+
+
+34.TAKING USER INPUT:
+import java.util.Scanner;
+public class Hello
+{
+public static void main(String[] args)
+{
+Scanner myObj=new Scanner(System.in);
+String userName;
+System.out.println("Enter");
+userName=myObj.nextLine();
+System.out.println("Username is: "+userName);
+}
+}
+
+ 
+35.CALCULATOR:
+import java.util.Scanner;
+public class Calc
+{ public static void main(String args[]) 
+{ int c;
+  int op;
+  Scanner obj=new Scanner(System.in);
+ System.out.println("Enter two values you want to process");
+ int a=obj.nextInt(); 
+int b=obj.nextInt();
+obj.nextLine();
+String ch;
+ do{ 
+System.out.println("Enter 1.ADD 2.SUBTRACT 3.MULTIPY 4.DIVIDE 5.MODULUS");
+op=obj.nextInt(); 
+switch(op)
+{ case 1:
+ c=a+b;
+ System.out.println("The sum is"+c); 
+break; 
+case 2:
+ c=a-b;
+ System.out.println("The difference is"+c);
+ break;
+ case 3:
+ c=a*b;
+ System.out.println("The product is"+c);
+ break;
+ case 4:
+ c=a/b;
+ System.out.println("The quotient is"+c);
+ break;
+ case 5:
+ c=a%b;
+ System.out.println("The remainder is"+c);
+break;
+ default:
+System.out.println("Exiting...");
+}
+System.out.println("Do you want to continue?y/n");
+ch=obj.next();
+obj.nextLine();
+}while(!ch.equals("n"));
+}
+}
+
+ 
+
+36.STRINGS:
+public class Sample
+{ public static void main(String args[]) 
+{ char[] helloarr={'h','e','l','l','o'}; 
+String hellostr=new String(helloarr); 
+System.out.println(hellostr);
+}
+}
+
+ 
+
+
+
+
+
+
+
+
